@@ -349,6 +349,7 @@ header, footer, main, section {
   padding: 0;
 }
 
+
 /* Portfolio */
 
 #portfolio {
@@ -372,6 +373,7 @@ header, footer, main, section {
   /* 14 / 16 = 0.875 */
 }
 
+
 /* Contact */
 
 #contact h2 {
@@ -382,4 +384,47 @@ header, footer, main, section {
   color: #b31178;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#contact-info .address, #contact-info .phone, #contact-info .email {
+  display: block;
+  padding: 0 0 0.625em 2em;
+  /*32 / 16 = 2 */
+  /*10 / 16 = 0.625;*/
+}
+
+#contact-form {
+  background: #e1e6f2;
+  display: block;
+}
+
+#contact-form form {
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+}
+
+#contact-form input, #contact-form textarea, #contact-form label {
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#contact-form input, #contact-form textarea {
+  padding: 0.625em;
+  margin-bottom: 0.625em;
+  /*10 / 16 = 0.625;*/
+}
+
+#contact-form label {
+  margin-bottom: 0.3125em;
+  /*5 / 16 = 0.3125;*/
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #b31178;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
 }
