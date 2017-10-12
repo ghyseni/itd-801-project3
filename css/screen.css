@@ -194,10 +194,15 @@ header, footer, main, section {
   display: block;
 }
 
+#nav li {
+  display: block;
+}
+
 #nav a {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 0 0.625em;
+  display: block;
 }
 
 #nav a:hover {
