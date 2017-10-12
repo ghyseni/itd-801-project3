@@ -380,10 +380,6 @@ header, footer, main, section {
 
 /* Contact */
 
-#contact h2 {
-  text-transform: uppercase;
-}
-
 #contact h3 {
   color: #b31178;
   text-transform: uppercase;
