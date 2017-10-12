@@ -462,6 +462,10 @@ header, footer, main, section {
   cursor: pointer;
 }
 
+#page-404 h2 {
+  color: #b31178;
+}
+
 
 /*
   States of the browser and user access
