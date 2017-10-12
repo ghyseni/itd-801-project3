@@ -183,6 +183,11 @@ header, footer, main, section {
   padding: 0 0 10px;
 }
 
+#nav a:hover {
+  color: #b31178;
+  transition: color 0.2s;
+}
+
 #nav .menu {
   margin-bottom: 10px;
   text-align: center;
