@@ -474,9 +474,23 @@ header, footer, main, section {
 
 @media screen and (min-width: 375px) {}
 
-@media screen and (min-width: 640px) {}
+@media screen and (min-width: 640px) {
+  /* Resume */
+  #resume {
+    float: left;
+    width: 100%;
+  }
+  #resume ul {
+    float: left;
+    width: 100%;
+  }
+  #resume .skills-group {
+    float: left;
+    width: 50%;
+  } 
+}
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 768px) {
   /*
     1080 pixel grid w/ 80px margins (160)
     Columns:
