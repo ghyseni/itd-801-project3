@@ -366,6 +366,10 @@ header, footer, main, section {
   width: 100%;
 }
 
+#portfolio h3 {
+  text-transform: uppercase;
+}
+
 #portfolio .portfolio-entry {
   float: left;
   width: 100%;
