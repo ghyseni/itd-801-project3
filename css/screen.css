@@ -46,3 +46,34 @@ table {
 
 
 /* stylelint-enable */
+
+
+/* Begin site styles below */
+
+
+/* Base Styles */
+
+
+/*
+  Hint: these tend to be
+  1. element selectors
+  2. concerned with color and typography
+  3. basic element presenation
+*/
+
+
+/*
+  Setting type with a 4:3 modular scale
+  http://www.modularscale.com/?18&px&1.333
+*/
+
+html {
+  font-family: 'Lato', Helvetica, Arial, serif;
+  font-size: 1em;
+  line-height: 1.125em;
+  /* 18 / 16 = 1.125 */
+}
+
+* {
+  box-sizing: border-box;
+}
