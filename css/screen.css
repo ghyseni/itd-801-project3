@@ -51,10 +51,9 @@ table {
 /* Begin site styles below */
 
 
-/* Base Styles */
-
-
 /*
+  Base Styles
+
   Hint: these tend to be
   1. element selectors
   2. concerned with color and typography
@@ -63,8 +62,8 @@ table {
 
 
 /*
-  Setting type with a 4:3 modular scale
-  http://www.modularscale.com/?18&px&1.333
+  Setting type with a 5:4 modular scale
+  http://www.modularscale.com/?16&px&1.25
 */
 
 html {
@@ -76,4 +75,38 @@ html {
 
 * {
   box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'Oswald', Helvetica, Arial, serif;
+}
+
+h1 {
+  font-size: 1.953em;
+  /* 31.25 / 16 = 1.953 */
+  line-height: 1.056em;
+  /* 33 ÷ 31.25 = 1.056 */
+}
+
+h2 {
+  font-size: 1.563em;
+  /* 25 / 16 = 1.563 */
+  line-height: 1.08em;
+  /* 27 / 25 = 1.08 */
+}
+
+h3 {
+  font-size: 1.25em;
+  /* 20 / 16 = 1.25*/
+  line-height: 1.1em;
+  /* 22 / 20 = 1.1 */
+}
+
+h4, p {
+  line-height: 1.125em;
+  /*18 / 16 = 1.125;*/
+}
+
+h4 {
+  font-weight: bold;
 }
