@@ -173,9 +173,7 @@ header, footer, main, section {
   display: block;
 }
 
-#nav li {
-
-}
+#nav li {}
 
 #nav a {
   text-transform: uppercase;
@@ -206,4 +204,9 @@ header, footer, main, section {
   background-position: center;
   background-size: contain;
   display: inline-block;
+}
+
+.content {
+  padding: 0.625em 5%;
+  /*10 / 16 = 0.625*/
 }
