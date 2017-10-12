@@ -371,3 +371,15 @@ header, footer, main, section {
   font-size: 0.875em;
   /* 14 / 16 = 0.875 */
 }
+
+/* Contact */
+
+#contact h2 {
+  text-transform: uppercase;
+}
+
+#contact h3 {
+  color: #b31178;
+  text-transform: uppercase;
+  font-weight: bold;
+}
