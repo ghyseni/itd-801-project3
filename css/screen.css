@@ -396,10 +396,34 @@ header, footer, main, section {
 }
 
 #contact-info .address, #contact-info .phone, #contact-info .email {
+  position: relative;
   display: block;
   padding: 0 0 0.625em 2em;
   /*32 / 16 = 2 */
   /*10 / 16 = 0.625;*/
+}
+
+.address:before, .phone:before, .email:before {
+  content: "";
+  width: 1.1em;
+  height: 1.1em;
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.address:before {
+  background-image: url('../images/home.png');
+}
+
+.phone:before {
+  background-image: url('../images/phone.png');
+}
+
+.email:before {
+  background-image: url('../images/envelope.png');
 }
 
 #contact-form {
