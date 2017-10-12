@@ -307,6 +307,11 @@ header, footer, main, section {
   /* 10 / 16 = 0.625 */
 }
 
+.content h3, h4, h5, h6, p {
+  padding-bottom: 0.625em;
+  /* 10 / 16 = 0.625 */
+}
+
 #page-title {
   padding: 0.625em 5%;
 }
