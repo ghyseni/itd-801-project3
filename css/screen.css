@@ -125,3 +125,11 @@ form input, form textarea {
   border: solid 0.063em #ddd;
   /* 1 / 16 = 0.063 */
 }
+
+
+/* Responsive Media */
+
+img, video, audio {
+  display: block;
+  max-width: 100%;
+}
