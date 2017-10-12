@@ -313,3 +313,22 @@ header, footer, main, section {
   color: #fff;
   background-color: #010101;
 }
+
+
+/* Resume */
+
+#resume section:nth-child(2n+1) {
+  background-color: #e1e6f2;
+}
+
+#resume h3 {
+  color: #b31178;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#resume h4 {
+  padding-bottom: 0.625em;
+  font-weight: bold;
+  /* 10 / 16 = 0.625 */
+}
