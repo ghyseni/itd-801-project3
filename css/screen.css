@@ -491,7 +491,30 @@ header, footer, main, section {
   #resume .skills-group {
     float: left;
     width: 50%;
-  } 
+  }
+  /*Portfolio*/
+  #portfolio .portfolio-entry {
+    width: 50%;
+  }
+  #portfolio .portfolio-entry:nth-child(2n+1) {
+    clear: left;
+  }
+  #portfolio .portfolio-entry:nth-child(2n+1) {
+    background-color: #fff;
+  }
+  #portfolio .portfolio-entry:nth-child(3n-2) {
+    background-color: #e1e6f2;
+  }
+  /*Contact*/
+  #contact {
+    /*padding: 1.125em 5%;*/
+  }
+  #contact .content {
+    width: 47.5%;
+  }
+  #contact .content:nth-child(2n+1) {
+    margin-right: 5%;
+  }
 }
 
 @media screen and (min-width: 768px) {
