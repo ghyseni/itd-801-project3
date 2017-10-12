@@ -199,6 +199,8 @@ header, footer, main, section {
 
 #nav .network li {
   display: inline;
+  padding:0.3125em;
+  /*5 / 16 = 0.3125*/
 }
 
 #nav .network li a {
@@ -206,6 +208,21 @@ header, footer, main, section {
   background-position: center;
   background-size: contain;
   display: inline-block;
+}
+
+.facebook, .linkedin {
+  width: 16px;
+  height: 16px;
+}
+
+.facebook {
+  background-image: url("../images/facebook.png");
+  /* will add hover effect later */
+}
+
+.linkedin {
+  background-image: url("../images/linkedin.png");
+  /* will add hover effect later */
 }
 
 
