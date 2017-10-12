@@ -332,3 +332,11 @@ header, footer, main, section {
   font-weight: bold;
   /* 10 / 16 = 0.625 */
 }
+
+#skills li {
+  padding: 10px 0;
+}
+
+#skills li li {
+  padding: 0;
+}
