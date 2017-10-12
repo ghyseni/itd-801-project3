@@ -199,7 +199,7 @@ header, footer, main, section {
 
 #nav .network li {
   display: inline;
-  padding:0.3125em;
+  padding: 0.3125em;
   /*5 / 16 = 0.3125*/
 }
 
@@ -334,9 +334,17 @@ header, footer, main, section {
 }
 
 #skills li {
-  padding: 10px 0;
+  padding: 0.625em 0;
 }
 
 #skills li li {
+  padding: 0;
+}
+
+#timeline li {
+  padding: 0.625em 0;
+}
+
+#timeline li li {
   padding: 0;
 }
