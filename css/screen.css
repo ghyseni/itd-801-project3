@@ -133,3 +133,57 @@ img, video, audio {
   display: block;
   max-width: 100%;
 }
+
+
+/*
+ Layout Styles
+
+ Hint: these tend to be
+  1. IDs; but also classes, sometimes
+  2. concerned with layout and spatial
+     relationships
+*/
+
+header, footer, main, section {
+  float: left;
+  width: 100%;
+}
+
+#header {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 5px 5px #e1e6f2;
+  padding: 10px 5%;
+}
+
+#nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 90%;
+  /*100% - (5% + 5%)*/
+  background-color: #fff;
+  box-shadow: 0px 5px 5px #e1e6f2;
+  padding: 16px 5%;
+  transition: display 0.2s;
+}
+
+#nav.opened {
+  display: block;
+}
+
+#nav li {}
+
+#nav a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 0 10px;
+}
+
+#nav .menu {
+  margin-bottom: 10px;
+  text-align: center;
+}
