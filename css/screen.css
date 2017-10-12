@@ -162,8 +162,7 @@ header, footer, main, section {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 90%;
-  /*100% - (5% + 5%)*/
+  width: 100%;
   background-color: #fff;
   box-shadow: 0px 5px 5px #e1e6f2;
   padding: 16px 5%;
@@ -174,10 +173,11 @@ header, footer, main, section {
   display: block;
 }
 
-#nav li {}
+#nav li {
+
+}
 
 #nav a {
-  display: block;
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 0 10px;
@@ -191,4 +191,19 @@ header, footer, main, section {
 #nav .menu {
   margin-bottom: 10px;
   text-align: center;
+}
+
+#nav .network {
+  text-align: center;
+}
+
+#nav .network li {
+  display: inline;
+}
+
+#nav .network li a {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
 }
