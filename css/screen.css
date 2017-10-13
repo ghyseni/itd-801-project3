@@ -267,7 +267,7 @@ header, footer, main, section {
   position: relative;
   display: inline-block;
   width: 80%;
-  height: 0.1875em;
+  height: 3px;
   margin: 10%;
   background: #b31178;
   border-radius: 0.28571rem;
