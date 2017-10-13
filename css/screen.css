@@ -330,6 +330,8 @@ header, footer, main, section {
 }
 
 .content h3, h4, h5, h6, p {
+  float:left;
+  width:100%;
   padding-bottom: 0.625em;
   /* 10 / 16 = 0.625 */
 }
