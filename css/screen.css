@@ -35,7 +35,7 @@ blockquote, q {
 }
 
 blockquote:after, blockquote:before, q:after, q:before {
-  content: '';
+  content: "";
   content: none
 }
 
@@ -67,7 +67,7 @@ table {
 */
 
 html {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.125em;
   /* 18 / 16 = 1.125 */
@@ -78,7 +78,7 @@ html {
 }
 
 h1, h2 {
-  font-family: 'Oswald', Helvetica, Arial, serif;
+  font-family: Oswald, Helvetica, Arial, serif;
 }
 
 h1 {
@@ -161,7 +161,7 @@ header, footer, main, section {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.cssgrid header, .cssgrid footer, .cssgrid main, .cssgrid section, .cssgrid #page-title {
+.cssgrid header, .cssgrid footer, .cssgrid main, .cssgrid section {
   float: none;
   grid-column: 1/5;
 }
@@ -259,7 +259,7 @@ header, footer, main, section {
   background: none;
   display: inline-block;
   /*display: flex;*/
-  transition: .3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -283,7 +283,7 @@ header, footer, main, section {
   transition: 0.3s;
   position: absolute;
   left: 0;
-  content: '';
+  content: "";
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
@@ -330,8 +330,8 @@ header, footer, main, section {
 }
 
 .content h3, h4, h5, h6, p {
-  float:left;
-  width:100%;
+  float: left;
+  width: 100%;
   padding-bottom: 0.625em;
   /* 10 / 16 = 0.625 */
 }
@@ -439,15 +439,15 @@ header, footer, main, section {
 }
 
 .address:before {
-  background-image: url('../images/home.png');
+  background-image: url("../images/home.png");
 }
 
 .phone:before {
-  background-image: url('../images/phone.png');
+  background-image: url("../images/phone.png");
 }
 
 .email:before {
-  background-image: url('../images/envelope.png');
+  background-image: url("../images/envelope.png");
 }
 
 #contact-form {
@@ -527,8 +527,6 @@ header, footer, main, section {
   }
   #portfolio .portfolio-entry:nth-child(2n+1) {
     clear: left;
-  }
-  #portfolio .portfolio-entry:nth-child(2n+1) {
     background-color: #fff;
   }
   #portfolio .portfolio-entry:nth-child(3n-2) {
