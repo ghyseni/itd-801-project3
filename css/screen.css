@@ -423,6 +423,8 @@ header, footer, main, section {
   position: relative;
   display: block;
   padding: 0 0 0.625em 2em;
+  float:left;
+  width:100%;
   /*32 / 16 = 2 */
   /*10 / 16 = 0.625;*/
 }
