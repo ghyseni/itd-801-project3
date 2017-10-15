@@ -250,7 +250,7 @@ header, footer, main, section {
 
 /* Responsive menu button */
 
-.menu-button {
+#show-nav {
   position: relative;
   float: right;
   z-index: 9999;
@@ -263,7 +263,7 @@ header, footer, main, section {
   cursor: pointer;
 }
 
-.menu-button span {
+#show-nav span {
   position: relative;
   display: inline-block;
   width: 80%;
@@ -274,7 +274,7 @@ header, footer, main, section {
   transition: background 0.3s 0.5s ease;
 }
 
-.menu-button span:before, .menu-button span:after {
+#show-nav span:before, #show-nav span:after {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -288,20 +288,20 @@ header, footer, main, section {
   transform-origin: 50% 50%;
 }
 
-.menu-button span:before {
+#show-nav span:before {
   top: 0.625em;
 }
 
-.menu-button span:after {
+#show-nav span:after {
   top: -0.625em;
 }
 
-.menu-button.close span {
+#show-nav.close span {
   transition: background 0.3s 0s ease;
   background: transparent;
 }
 
-.menu-button.close span:before, .menu-button.close span:after {
+#show-nav.close span:before, #show-nav.close span:after {
   transition: top 0.3s ease, -webkit-transform 0.3s 0.5s ease;
   transition: top 0.3s ease, transform 0.3s 0.5s ease;
   top: 5%;
@@ -309,12 +309,12 @@ header, footer, main, section {
   width: 110%;
 }
 
-.menu-button.close span:before {
+#show-nav.close span:before {
   -webkit-transform: rotate3d(0, 0, 1, 45deg);
   transform: rotate3d(0, 0, 1, 45deg);
 }
 
-.menu-button.close span:after {
+#show-nav.close span:after {
   -webkit-transform: rotate3d(0, 0, 1, -45deg);
   transform: rotate3d(0, 0, 1, -45deg);
 }
