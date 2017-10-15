@@ -560,12 +560,44 @@ header, footer, main, section {
   }
 }
 
-@media screen and (min-width: 768px) {
-  /*
-    1080 pixel grid w/ 80px margins (160)
-    Columns:
-    Gutters:
-    Primary module:
-    Secondary modul:
-  */
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {
+  #nav {
+    position: relative;
+    top: auto;
+    left: auto;
+    opacity: 1;
+    float: left;
+    width: calc(100% - 9.625rem);
+    z-index: auto;
+    box-shadow: none;
+    padding-right: 0;
+    text-align: center;
+  }
+  #header h1 {
+    font-size: 2em;
+    width: 9.625rem;
+    /* 154 / 16 = 9.625*/
+  }
+  #nav li {
+    display: inline;
+    float: none;
+  }
+  #nav a {
+    display: inline;
+    float: none;
+    padding: 0 1em;
+  }
+  #nav .menu {
+    float: left;
+    width: 80%;
+  }
+  #nav .network {
+    float: right;
+    max-width: 20%;
+  }
+  #show-nav {
+    display: none;
+  }
 }
