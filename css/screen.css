@@ -599,10 +599,10 @@ article li li ol {
   .contact {
     /*padding: 1.125em 5%;*/
   }
-  .contact #main {
+  .contact .content {
     width: 47.5%;
   }
-  .contact #content:nth-child(2n+1) {
+  .contact .content:nth-child(2n+1) {
     margin-right: 5%;
   }
   .cssgrid .contact-info {
