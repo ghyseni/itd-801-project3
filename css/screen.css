@@ -466,13 +466,13 @@ article li li ol {
 
 /* Contact */
 
-#contact h3 {
+.contact h3 {
   color: #b31178;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-#contact-info .address, #contact-info .phone, #contact-info .email {
+.contact-info .address, .contact-info .phone, .contact-info .email {
   position: relative;
   display: block;
   padding: 0 0 0.625em 2em;
@@ -505,37 +505,37 @@ article li li ol {
   background-image: url("../images/envelope.png");
 }
 
-#contact-form {
+.contact-form {
   background: #e1e6f2;
   display: block;
 }
 
-#contact-form form {
+.contact-form form {
   display: block;
   width: 100%;
   margin-top: 1em;
 }
 
-#contact-form input, #contact-form textarea, #contact-form label {
+.contact-form input, .contact-form textarea, .contact-form label {
   font-size: 1em;
   display: block;
   width: 100%;
   text-transform: uppercase;
 }
 
-#contact-form input, #contact-form textarea {
+.contact-form input, .contact-form textarea {
   padding: 0.625em;
   margin-bottom: 0.625em;
   background: #fff;
   /*10 / 16 = 0.625;*/
 }
 
-#contact-form label {
+.contact-form label {
   margin-bottom: 0.3125em;
   /*5 / 16 = 0.3125;*/
 }
 
-#contact-form input[type="submit"]:hover {
+.contact-form input[type="submit"]:hover {
   background-color: #b31178;
   color: #fff;
   transition: 0.3s;
@@ -589,20 +589,20 @@ article li li ol {
     background-color: #e1e6f2;
   }
   /*Contact*/
-  #contact {
+  .contact {
     /*padding: 1.125em 5%;*/
   }
-  #contact #main {
+  .contact #main {
     width: 47.5%;
   }
-  #contact #content:nth-child(2n+1) {
+  .contact #content:nth-child(2n+1) {
     margin-right: 5%;
   }
-  .cssgrid #contact-info {
+  .cssgrid .contact-info {
     width: 100%;
     grid-column: 1/3;
   }
-  .cssgrid #contact-form {
+  .cssgrid .contact-form {
     width: 100%;
     grid-column: 3/5;
   }
