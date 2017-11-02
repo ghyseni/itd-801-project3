@@ -330,20 +330,28 @@ header, footer, main, section {
 }
 
 .content {
-  padding: 0.625em 5%;
-  /*10 / 16 = 0.625*/
+  padding: 1.125em 5%;
+  /*18 / 16 = 0.625*/
+}
+
+.content h2, h3, h4, p {
+  float: left;
+  width: 100%;
 }
 
 .content h2 {
-  padding: 0.625em 0;
-  /* 10 / 16 = 0.625 */
+  padding-bottom: 0.88em;
+  /* 22 / 25 = 0.88 */
 }
 
-.content h3, h4, h5, h6, p {
-  float: left;
-  width: 100%;
-  padding-bottom: 0.625em;
-  /* 10 / 16 = 0.625 */
+.content h3 {
+  padding-bottom: 0.9em;
+  /* 18 / 20 = 0.9 */
+}
+
+.content h4, p {
+  padding-bottom: 1.125em;
+  /* 18 / 16 = 1.125 */
 }
 
 #page-title {
