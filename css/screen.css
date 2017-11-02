@@ -427,7 +427,7 @@ article li li ol {
 
 /* Resume */
 
-.resume section:nth-child(2n+1) {
+.resume .timeline {
   background-color: #e1e6f2;
 }
 
