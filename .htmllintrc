@@ -14,7 +14,7 @@
     "fig-require-figcaption": true, // require <figcaption>
     "html-req-lang": true, // <html> tag must have lang attribute
     "head-req-title": true, // All documents must have <title>
-    "head-valid-content-model": true, // Only valid <head> children
+    "head-valid-main-model": true, // Only valid <head> children
     "id-class-style": "dash", // allow hyphens/dashes in attribute values, e.g., week-one
     "id-no-dup": true, // no duplicate IDs anywhere on page
     "img-req-alt": true, // All <img> tags must have non-empty alt attribute
