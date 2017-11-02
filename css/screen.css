@@ -433,25 +433,12 @@ article li li ol {
 }
 
 .resume h4 {
-  padding-bottom: 0.625em;
   font-weight: bold;
-  /* 10 / 16 = 0.625 */
 }
 
-#skills li {
-  padding: 0.625em 0;
-}
-
-#skills li li {
-  padding: 0;
-}
-
-#timeline li {
-  padding: 0.625em 0;
-}
-
-#timeline li li {
-  padding: 0;
+.timeline li:not(:last-child), .interests li:not(:last-child) {
+  padding-bottom: 1.125em;
+  /* 18 / 16 = 1.125 */
 }
 
 
