@@ -362,6 +362,7 @@ header, footer, main, section {
 }
 
 .content {
+  /*float: none;*/
   padding: 1.125em 5%;
   /* 18 / 16 = 1.125 */
 }
@@ -411,7 +412,7 @@ article li li ol {
   padding-bottom: 0;
 }
 
-#page-title {
+.page-title {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -586,7 +587,7 @@ article li li ol {
   /*Portfolio*/
   .portfolio .portfolio-entry {
     width: 50%;
-    padding: 1.125em 5%;
+    /*padding: 1.125em 5%;*/
   }
   .portfolio .portfolio-entry:nth-child(2n+1) {
     clear: left;
@@ -661,5 +662,23 @@ article li li ol {
   }
   #show-nav {
     display: none;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  /*General*/
+  #header {
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+    /*150/16 =9.375*/
+  }
+  .content, .page-title {
+    padding: 1.125rem 9.375rem;
+    /*150/16 =9.375*/
+  }
+  .page-title {
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+    /*150/16 =9.375*/
   }
 }
