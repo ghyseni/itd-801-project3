@@ -22,6 +22,11 @@ html, .stylelint {
   line-height: 1
 }
 
+body {
+  float: left;
+  width: 100%;
+}
+
 body, .stylelint {
   line-height: inherit
 }
