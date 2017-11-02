@@ -355,9 +355,42 @@ header, footer, main, section {
   /* 18 / 20 = 0.9 */
 }
 
-.content h4, p {
-  padding-bottom: 1.125em;
+.content ol, ul {
+  padding-left: 1.125em;
   /* 18 / 16 = 1.125 */
+}
+
+.content ol {
+  list-style-type: decimal;
+}
+
+.content ul {
+  list-style-type: square;
+}
+
+.content li ol, .content li ul {
+  /*padding-top: 0.5625em;*/
+  /* 9 / 16 = 0.5625 */
+  padding-left: 1.125em;
+  /* 18 / 16 = 1.125 */
+  padding-bottom: 0;
+}
+
+.content li ol {
+  list-style-type: lower-alpha;
+}
+
+.content li li ol {
+  list-style-type: lower-roman;
+}
+
+.content li {
+  /*padding-bottom: 0.5625em;*/
+  /* 9 / 16 = 0.5625 */
+}
+
+.content li li:last-child {
+  padding-bottom: 0;
 }
 
 #page-title {
