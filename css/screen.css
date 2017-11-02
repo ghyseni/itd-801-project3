@@ -152,28 +152,6 @@ img, video, audio {
      relationships
 */
 
-header, footer, main, section {
-  float: left;
-  width: 100%;
-}
-
-.cssgrid body {
-  display: grid;
-  grid-template-rows: min-content;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.cssgrid main {
-  display: grid;
-  grid-template-rows: min-content;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.cssgrid header, .cssgrid footer, .cssgrid main, .cssgrid section {
-  float: none;
-  grid-column: 1/5;
-}
-
 #header {
   display: block;
   position: relative;
@@ -552,6 +530,45 @@ article li li ol {
 
 #page-404 h2 {
   color: #b31178;
+}
+
+
+/*
+ CSS Grid layouts
+ */
+
+.cssgrid body {
+  display: grid;
+  grid-template-rows: min-content;
+}
+
+.cssgrid header, .cssgrid footer, .cssgrid main, .cssgrid section {
+  float: none;
+  width: auto;
+}
+
+.cssgrid #main {
+  display: grid;
+  grid-template-rows: min-content;
+}
+
+.cssgrid #main .page-title {
+  float: none;
+  width: auto;
+}
+
+.cssgrid .content {
+  width: auto;
+  float: none;
+}
+
+.cssgrid .portfolio .portfolio-entries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cssgrid .portfolio .portfolio-entry {
+  grid-column: 1/3;
 }
 
 
