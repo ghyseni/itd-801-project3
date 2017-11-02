@@ -444,26 +444,26 @@ article li li ol {
 
 /* Portfolio */
 
-#portfolio {
+.portfolio {
   float: left;
   width: 100%;
 }
 
-#portfolio h3 {
+.portfolio h3 {
   text-transform: uppercase;
 }
 
-#portfolio .portfolio-entry {
+.portfolio .portfolio-entry {
   float: left;
   width: 100%;
   padding: 0.625em 5%;
 }
 
-#portfolio .portfolio-entry:nth-child(2n+1) {
+.portfolio .portfolio-entry:nth-child(2n+1) {
   background-color: #e1e6f2;
 }
 
-#portfolio .categories li, #portfolio .team li {
+.portfolio .categories li, .portfolio .team li {
   display: inline;
   font-size: 0.875em;
   /* 14 / 16 = 0.875 */
@@ -583,15 +583,15 @@ article li li ol {
     width: 50%;
   }
   /*Portfolio*/
-  #portfolio .portfolio-entry {
+  .portfolio .portfolio-entry {
     width: 50%;
     padding: 1.125em 5%;
   }
-  #portfolio .portfolio-entry:nth-child(2n+1) {
+  .portfolio .portfolio-entry:nth-child(2n+1) {
     clear: left;
     background-color: #fff;
   }
-  #portfolio .portfolio-entry:nth-child(3n-2) {
+  .portfolio .portfolio-entry:nth-child(3n-2) {
     background-color: #e1e6f2;
   }
   /*Contact*/
