@@ -186,6 +186,7 @@ header, footer, main, section {
   position: relative;
   float: left;
   z-index: 2;
+  color: #b31178;
 }
 
 #nav {
