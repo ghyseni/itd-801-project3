@@ -198,7 +198,8 @@ header, footer, main, section {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 0.3125em 0.3125em #e1e6f2;
-  padding: 1em 5%;
+  padding: 0.5625em 5%;
+  /* 9 / 16 : 0.5625 */
 }
 
 #nav.opened {
