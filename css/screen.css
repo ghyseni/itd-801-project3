@@ -15,11 +15,13 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
-  display: block
+  display: block;
+  float: left;
+  width: 100%;
 }
 
 html, .stylelint {
-  line-height: 1.125;
+  line-height: 1.125em;
   /* 18 / 16=  1.125 */
 }
 
