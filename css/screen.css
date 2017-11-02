@@ -475,11 +475,11 @@ article li li ol {
 .contact-info .address, .contact-info .phone, .contact-info .email {
   position: relative;
   display: block;
-  padding: 0 0 0.625em 2em;
+  padding: 0 0 1.125em 2em;
+  /*32 / 16 = 2 */
+  /*18 / 16 = 1.125;*/
   float: left;
   width: 100%;
-  /*32 / 16 = 2 */
-  /*10 / 16 = 0.625;*/
 }
 
 .address:before, .phone:before, .email:before {
