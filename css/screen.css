@@ -215,7 +215,7 @@ header, footer, main, section {
 #nav a {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0 0 0.625em;
+  padding: 0.5625em 0;
   display: block;
 }
 
@@ -235,8 +235,10 @@ header, footer, main, section {
 
 #nav .network li {
   display: inline;
-  padding: 0.3125em;
-  /*5 / 16 = 0.3125*/
+  padding: 0.5625em;
+  /*9 / 16 = 0.5625*/
+  width: auto;
+  float:none;
 }
 
 #nav .network li a {
@@ -539,11 +541,6 @@ article li li ol {
   /*10 / 16 = 0.625;*/
 }
 
-.contact-form label {
-  /*margin-bottom: 0.3125em;*/
-  /*5 / 16 = 0.3125;*/
-}
-
 .contact-form input[type="submit"]:hover {
   background-color: #b31178;
   color: #fff;
@@ -653,10 +650,13 @@ article li li ol {
   #nav .menu {
     float: left;
     width: 80%;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
   #nav .network {
     float: right;
     max-width: 20%;
+    padding-bottom: 0;
   }
   #show-nav {
     display: none;
