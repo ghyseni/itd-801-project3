@@ -376,23 +376,30 @@ article ul {
 }
 
 article li ol, article li ul {
-  /*padding-top: 0.5625em;*/
-  /* 9 / 16 = 0.5625 */
   padding-left: 1.125em;
   /* 18 / 16 = 1.125 */
   padding-bottom: 0;
 }
 
-.content li ol {
+article li ol {
   list-style-type: lower-alpha;
 }
 
-.content li li ol {
+article li li ol {
   list-style-type: lower-roman;
 }
 
 .content li {
-  /*padding-bottom: 0.5625em;*/
+  padding-bottom: 0.5625em;
+  /* 9 / 16 = 0.5625 */
+}
+
+.content li:last-child {
+  padding-bottom: 0;
+}
+
+.content li ol, article li ul {
+  padding-top: 0.5625em;
   /* 9 / 16 = 0.5625 */
 }
 
@@ -401,7 +408,8 @@ article li ol, article li ul {
 }
 
 #page-title {
-  padding: 0.625em 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #footer {
@@ -414,17 +422,17 @@ article li ol, article li ul {
 
 /* Resume */
 
-#resume section:nth-child(2n+1) {
+.resume section:nth-child(2n+1) {
   background-color: #e1e6f2;
 }
 
-#resume h3 {
+.resume h3 {
   color: #b31178;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-#resume h4 {
+.resume h4 {
   padding-bottom: 0.625em;
   font-weight: bold;
   /* 10 / 16 = 0.625 */
@@ -571,19 +579,19 @@ article li ol, article li ul {
 
 @media screen and (min-width: 640px) {
   /*General*/
-  .content, #page-title {
+  #main, #page-title {
     padding: 1.125em 5%;
   }
   /* Resume */
-  #resume {
+  .resume {
     float: left;
     width: 100%;
   }
-  #resume ul {
+  .resume ul {
     float: left;
     width: 100%;
   }
-  #resume .skills-group {
+  .resume .skills-group {
     float: left;
     width: 50%;
   }
@@ -603,10 +611,10 @@ article li ol, article li ul {
   #contact {
     /*padding: 1.125em 5%;*/
   }
-  #contact .content {
+  #contact #main {
     width: 47.5%;
   }
-  #contact .content:nth-child(2n+1) {
+  #contact #content:nth-child(2n+1) {
     margin-right: 5%;
   }
   .cssgrid #contact-info {
