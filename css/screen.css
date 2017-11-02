@@ -567,18 +567,14 @@ article li li ol {
 @media screen and (min-width: 375px) {}
 
 @media screen and (min-width: 640px) {
-  /*General*/
-  .content, .page-title {
-    padding: 1.125em 5%;
-  }
   /* Resume */
   .resume {
     float: left;
     width: 100%;
   }
   .resume ul {
-    float: left;
-    width: 100%;
+    /*float: left;
+    width: 100%;*/
   }
   .resume .skills-group {
     float: left;
