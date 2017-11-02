@@ -239,7 +239,7 @@ header, footer, main, section {
   padding: 0.5625em;
   /*9 / 16 = 0.5625*/
   width: auto;
-  float:none;
+  float: none;
 }
 
 #nav .network li a {
