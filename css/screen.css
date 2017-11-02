@@ -19,7 +19,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 html, .stylelint {
-  line-height: 1
+  line-height: 1.125;
+  /* 18 / 16=  1.125 */
 }
 
 body {
@@ -334,14 +335,19 @@ header, footer, main, section {
   /*18 / 16 = 0.625*/
 }
 
-.content h2, h3, h4, p {
+.content h2, h3, h4, p, ul, ol, li {
   float: left;
   width: 100%;
 }
 
+.content h4, p, ol, ul {
+  padding-bottom: 1.125em;
+  /* 18 / 16 = 1.125 */
+}
+
 .content h2 {
-  padding-bottom: 0.88em;
-  /* 22 / 25 = 0.88 */
+  padding-bottom: 0.72em;
+  /* 18 / 25 = 0.72 */
 }
 
 .content h3 {
