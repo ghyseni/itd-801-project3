@@ -31,20 +31,20 @@ body {
 }
 
 body, .stylelint {
-  line-height: inherit
+  line-height: inherit;
 }
 
 ol, ul, .stylelint {
-  list-style: none
+  list-style: none;
 }
 
 blockquote, q {
-  quotes: none
+  quotes: none;
 }
 
 blockquote:after, blockquote:before, q:after, q:before {
   content: "";
-  content: none
+  content: none;
 }
 
 table {
@@ -332,45 +332,50 @@ header, footer, main, section {
   transform: rotate3d(0, 0, 1, -45deg);
 }
 
-.content {
-  padding: 1.125em 5%;
+#main {
+  padding: 1.125em 0;
   /*18 / 16 = 0.625*/
 }
 
-.content h2, h3, h4, p, ul, ol, li {
+#main h2, h3, h4, p, ul, ol, li {
   float: left;
   width: 100%;
 }
 
-.content h4, p, ol, ul {
+#main h4, p, ol, ul {
   padding-bottom: 1.125em;
   /* 18 / 16 = 1.125 */
 }
 
-.content h2 {
+#main h2 {
   padding-bottom: 0.72em;
   /* 18 / 25 = 0.72 */
 }
 
-.content h3 {
+#main h3 {
   padding-bottom: 0.9em;
   /* 18 / 20 = 0.9 */
 }
 
-.content ol, ul {
+.content {
+  padding: 1.125em 5%;
+  /* 18 / 16 = 1.125 */
+}
+
+article ol, article ul {
   padding-left: 1.125em;
   /* 18 / 16 = 1.125 */
 }
 
-.content ol {
+article ol {
   list-style-type: decimal;
 }
 
-.content ul {
+article ul {
   list-style-type: square;
 }
 
-.content li ol, .content li ul {
+article li ol, article li ul {
   /*padding-top: 0.5625em;*/
   /* 9 / 16 = 0.5625 */
   padding-left: 1.125em;
