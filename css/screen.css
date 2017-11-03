@@ -723,8 +723,14 @@ article li li ol {
     padding-bottom: 0;
     text-align: center;
   }
+  .flexbox #nav {
+    display: flex;
+  }
   #nav li {
     display: inline;
+    float: none;
+  }
+  .flexbox #nav li {
     float: none;
   }
   #nav a {
