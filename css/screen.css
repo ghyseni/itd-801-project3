@@ -619,6 +619,40 @@ article li li ol {
   grid-column: 1/3;
 }
 
+.cssgrid .content p, h1, h2, h3, h4, ul, ol, li {
+  float: none;
+}
+
+.cssgrid .content ul li, .cssgrid .content ol li {
+  float: none;
+}
+
+
+/* Flexbox */
+
+.flexbox #header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flexbox #nav {
+  float: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flexbox #nav .menu {
+  width: auto;
+  flex-grow: 1;
+}
+
+.flexbox #header h1 {
+  float: none;
+}
+
 
 /*
   States of the browser and user access
@@ -747,17 +781,11 @@ article li li ol {
     display: none;
   }
   .flexbox #header {
-    display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
   .flexbox #nav {
-    float: none;
-    width: auto;
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
+    flex-direction: row;
   }
   .flexbox #nav .menu {
     width: auto;
