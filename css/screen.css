@@ -782,6 +782,8 @@ article li li ol {
     box-shadow: none;
     padding-right: 0;
     padding-bottom: 0;
+    padding-top:0.5625em;
+    /*9 / 16 = 0.5625*/
     text-align: center;
   }
   #nav li {
