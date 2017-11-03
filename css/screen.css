@@ -617,13 +617,9 @@ article li li ol {
   .contact .content:nth-child(2n+1) {
     margin-right: 5%;
   }
-  .cssgrid .contact-info {
-    width: 100%;
-    grid-column: 1/3;
-  }
-  .cssgrid .contact-form {
-    width: 100%;
-    grid-column: 3/5;
+  .cssgrid .portfolio .portfolio-entry {
+    width: auto;
+    grid-column: auto;
   }
 }
 
