@@ -723,14 +723,8 @@ article li li ol {
     padding-bottom: 0;
     text-align: center;
   }
-  .flexbox #nav {
-    display: flex;
-  }
   #nav li {
     display: inline;
-    float: none;
-  }
-  .flexbox #nav li {
     float: none;
   }
   #nav a {
@@ -751,6 +745,26 @@ article li li ol {
   }
   #show-nav {
     display: none;
+  }
+  .flexbox #header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .flexbox #nav {
+    float: none;
+    width: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  .flexbox #nav .menu {
+    width: auto;
+    flex-grow: 1;
+  }
+  .flexbox #header h1 {
+    float: none;
   }
 }
 
