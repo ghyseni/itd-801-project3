@@ -644,10 +644,6 @@ article li li ol {
   .about .photo {
     float: left;
   }
-  .about .photo figcaption {
-    bottom: auto;
-    top: 0;
-  }
   /* Resume */
   .resume {
     float: left;
@@ -686,6 +682,7 @@ article li li ol {
   .cssgrid .about .photo {
     width: auto;
     grid-column: auto;
+    align-self: flex-start;
   }
   .cssgrid .portfolio .portfolio-entry {
     width: auto;
