@@ -101,6 +101,8 @@ h2 {
   /* 25 / 16 = 1.563 */
   line-height: 1.08em;
   /* 27 / 25 = 1.08 */
+  padding-bottom: 0.72em;
+  /* 18 / 25 = 0.72 */
 }
 
 h3 {
@@ -108,6 +110,8 @@ h3 {
   /* 20 / 16 = 1.25*/
   line-height: 1.1em;
   /* 22 / 20 = 1.1 */
+  padding-bottom: 0.9em;
+  /* 18 / 20 = 0.9 */
 }
 
 h4, p, li {
@@ -142,6 +146,33 @@ img, video, audio {
   max-width: 100%;
 }
 
+article ol, article ul {
+  padding-left: 1.125em;
+  /* 18 / 16 = 1.125 */
+}
+
+article ol {
+  list-style-type: decimal;
+}
+
+article ul {
+  list-style-type: square;
+}
+
+article li ol, article li ul {
+  padding-left: 1.125em;
+  /* 18 / 16 = 1.125 */
+  padding-bottom: 0;
+}
+
+article li ol {
+  list-style-type: lower-alpha;
+}
+
+article li li ol {
+  list-style-type: lower-roman;
+}
+
 
 /*
  Layout Styles
@@ -168,6 +199,11 @@ img, video, audio {
   color: #b31178;
 }
 
+#main {
+  padding: 1.125em 0;
+  /*18 / 16 = 0.625*/
+}
+
 #nav {
   opacity: 0;
   overflow: hidden;
@@ -178,8 +214,8 @@ img, video, audio {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 0.3125em 0.3125em #e1e6f2;
-  padding: 0.5625em 5%;
-  /* 9 / 16 : 0.5625 */
+  padding: 1.125em 5%;
+  /* 18 / 16 : 0.5625 */
 }
 
 #nav.opened {
@@ -228,17 +264,17 @@ img, video, audio {
   display: inline-block;
 }
 
-.facebook, .linkedin {
+#nav .network .facebook, #nav .network .linkedin {
   width: 1.2rem;
   height: 1.2rem;
 }
 
-.facebook {
+#nav .network .facebook {
   background-image: url("../images/facebook.png");
   /* will add hover effect later */
 }
 
-.linkedin {
+#nav .network .linkedin {
   background-image: url("../images/linkedin.png");
   /* will add hover effect later */
 }
@@ -263,7 +299,8 @@ img, video, audio {
   position: relative;
   display: inline-block;
   width: 80%;
-  height: 3px;
+  height: 0.1875rem;
+  /* 3/16 =0.1875 */
   margin: 10%;
   background: #b31178;
   border-radius: 0.28571rem;
@@ -299,7 +336,6 @@ img, video, audio {
 
 #show-nav.close span:before, #show-nav.close span:after {
   transition: top 0.3s ease, -webkit-transform 0.3s 0.5s ease;
-  transition: top 0.3s ease, transform 0.3s 0.5s ease;
   top: 5%;
   left: -5%;
   width: 110%;
@@ -315,29 +351,29 @@ img, video, audio {
   transform: rotate3d(0, 0, 1, -45deg);
 }
 
-#main {
-  padding: 1.125em 0;
-  /*18 / 16 = 0.625*/
+#footer {
+  margin-top: 1.125em;
+  padding: 1.125em 5%;
+  /* 18/16=1.125*/
+  color: #fff;
+  background-color: #010101;
 }
 
-#main h2, h3, h4, p, ul, ol, li {
-  float: left;
-  width: 100%;
-}
 
-#main h4, p, ol, ul {
-  padding-bottom: 1.125em;
-  /* 18 / 16 = 1.125 */
-}
+/* Modular Styles */
 
-#main h2 {
-  padding-bottom: 0.72em;
-  /* 18 / 25 = 0.72 */
-}
 
-#main h3 {
-  padding-bottom: 0.9em;
-  /* 18 / 20 = 0.9 */
+/*
+  Repeating style patterns.
+  Hint: these tend to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+      spacing, color, etc. etc.
+*/
+
+.page-title {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .content {
@@ -346,31 +382,14 @@ img, video, audio {
   /* 18 / 16 = 1.125 */
 }
 
-article ol, article ul {
-  padding-left: 1.125em;
+.content h2, .content h3, .content h4, .content p, .content ul, .content ol, .content li {
+  float: left;
+  width: 100%;
+}
+
+.content h4, .content p, .content ol, .content ul {
+  padding-bottom: 1.125em;
   /* 18 / 16 = 1.125 */
-}
-
-article ol {
-  list-style-type: decimal;
-}
-
-article ul {
-  list-style-type: square;
-}
-
-article li ol, article li ul {
-  padding-left: 1.125em;
-  /* 18 / 16 = 1.125 */
-  padding-bottom: 0;
-}
-
-article li ol {
-  list-style-type: lower-alpha;
-}
-
-article li li ol {
-  list-style-type: lower-roman;
 }
 
 .content li {
@@ -382,26 +401,13 @@ article li li ol {
   padding-bottom: 0;
 }
 
-.content li ol, article li ul {
+.content li ol, .content li ul {
   padding-top: 0.5625em;
   /* 9 / 16 = 0.5625 */
 }
 
 .content li li:last-child {
   padding-bottom: 0;
-}
-
-.page-title {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-#footer {
-  margin-top: 1.125em;
-  padding: 1.125em 5%;
-  /* 18/16=1.125*/
-  color: #fff;
-  background-color: #010101;
 }
 
 
@@ -436,9 +442,13 @@ article li li ol {
   font-weight: bold;
 }
 
-.timeline li:not(:last-child), .interests li:not(:last-child) {
+.timeline li, .interests li {
   padding-bottom: 1.125em;
   /* 18 / 16 = 1.125 */
+}
+
+.timeline li:last-child, .interests li:last-child {
+  padding-bottom: 0;
 }
 
 
@@ -545,7 +555,7 @@ article li li ol {
   cursor: pointer;
 }
 
-#page-404 h2 {
+.page-404 h2 {
   color: #b31178;
 }
 
@@ -569,7 +579,7 @@ article li li ol {
   grid-template-rows: min-content;
 }
 
-.cssgrid #main .page-title, .cssgrid .content {
+.cssgrid .page-title, .cssgrid .content {
   float: none;
   width: auto;
 }
@@ -736,7 +746,7 @@ article li li ol {
   }
 }
 
-@media screen and (min-width:1366px) {
+@media screen and (min-width: 1366px) {
   /*General*/
   #header {
     padding-left: 9.375rem;
