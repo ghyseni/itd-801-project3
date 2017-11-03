@@ -133,6 +133,10 @@ button {
   padding: 0;
 }
 
+time {
+  display: inline-block;
+}
+
 form input, form textarea {
   border: solid 0.063em #ddd;
   /* 1 / 16 = 0.063 */
@@ -389,6 +393,11 @@ article li li ol {
 .content h4, .content p, .content ol, .content ul {
   padding-bottom: 1.125em;
   /* 18 / 16 = 1.125 */
+}
+
+.content h4, .content time {
+  padding-bottom: 0.5625em;
+  /* 9 / 16 = 0.5625 */
 }
 
 .content li {
