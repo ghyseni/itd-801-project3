@@ -422,6 +422,8 @@ article li li ol {
   color: #fff;
   width: 100%;
   bottom: 0;
+  padding: 1.125em;
+  /* 18/16=1.125em*/
 }
 
 
@@ -460,6 +462,10 @@ article li li ol {
 
 .portfolio h3 {
   text-transform: uppercase;
+}
+
+.portfolio .portfolio-entry {
+  float: left;
 }
 
 .portfolio .portfolio-entry:nth-child(2n+1) {
