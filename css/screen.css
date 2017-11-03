@@ -636,6 +636,11 @@ article li li ol {
   float: none;
 }
 
+.cssgrid .skills .skills-groups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 /* Flexbox */
 
@@ -660,6 +665,10 @@ article li li ol {
 
 .flexbox #header h1 {
   float: none;
+}
+
+.flexbox:not(.cssgrid) .skills .skills-groups {
+  display: flex;
 }
 
 
@@ -692,9 +701,12 @@ article li li ol {
     float: left;
     width: 100%;
   }
-  .resume .skills-group {
+  .skills .skills-group {
     float: left;
     width: 50%;
+  }
+  .skills .skills-group ul {
+    padding-top: 0;
   }
   /*Portfolio*/
   .portfolio .portfolio-entry {
