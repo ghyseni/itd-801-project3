@@ -759,12 +759,15 @@ article li li ol {
     padding: 1.125rem 9.375rem;
     /*150/16 =9.375*/
   }
+  .about .content, .cssgrid .about .content {
+    padding: 1.125rem 9.375rem;
+  }
   .page-title {
     padding-left: 9.375rem;
     padding-right: 9.375rem;
     /*150/16 =9.375*/
   }
-  .portfolio .portfolio-entry {
+  .portfolio .portfolio-entry, .cssgrid .portfolio .portfolio-entry {
     padding: 1.125em 9.375rem;
     /*300/16 =9.375*/
   }
