@@ -581,6 +581,7 @@ article li li ol {
 .cssgrid body {
   display: grid;
   grid-template-rows: min-content;
+  min-height: 100vh;
 }
 
 .cssgrid header, .cssgrid footer, .cssgrid main, .cssgrid section {
@@ -640,7 +641,12 @@ article li li ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+.cssgrid #header{
+  align-self: flex-start;
+}
+.cssgrid #footer{
+  align-self: flex-end;
+}
 
 /* Flexbox */
 
