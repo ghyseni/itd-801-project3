@@ -645,7 +645,7 @@ article li li ol {
   /*Portfolio*/
   .portfolio .portfolio-entry {
     width: 50%;
-    padding: 1.125em 10%;
+    padding: 1.125em 5%;
   }
   .portfolio .portfolio-entry:nth-child(2n+1) {
     clear: left;
@@ -655,22 +655,37 @@ article li li ol {
     background-color: #e1e6f2;
   }
   /*Contact*/
-  .contact {
-    /*padding: 1.125em 5%;*/
-  }
   .contact .content {
     width: 47.5%;
+    padding: 1.125em 5%;
   }
   .contact .content:nth-child(2n+1) {
     margin-right: 5%;
   }
-  .cssgrid .portfolio .portfolio-entry {
+  /* CSS Grid*/
+  .cssgrid .about .content {
+    width: auto;
+    padding: 1.125em 10%;
+    grid-column: auto;
+  }
+  .cssgrid .about .photo {
     width: auto;
     grid-column: auto;
   }
+  .cssgrid .portfolio .portfolio-entry {
+    width: auto;
+    padding: 1.125em 10%;
+    grid-column: auto;
+  }
+  .cssgrid .contact .content {
+    width: auto;
+    padding: 1.125em 10%;
+    grid-column: auto;
+  }
+  .cssgrid .contact .content:nth-child(2n+1) {
+    margin-right: 10%;
+  }
 }
-
-@media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 1024px) {
   #header {
@@ -678,7 +693,7 @@ article li li ol {
   }
   #header h1 {
     font-size: 2em;
-    line-height: 2.25em;
+    /*line-height: 2.25em;*/
     /* 36 / 16 = 2.25 */
     width: 9.625rem;
     /* 154 / 16 = 9.625*/
