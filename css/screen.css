@@ -591,6 +591,19 @@ article li li ol {
   grid-column: 1/3;
 }
 
+.cssgrid .contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cssgrid .contact .page-title {
+  grid-column: 1/3;
+}
+
+.cssgrid .contact .content {
+  grid-column: 1/3;
+}
+
 
 /*
   States of the browser and user access
@@ -723,5 +736,15 @@ article li li ol {
     padding-left: 9.375rem;
     padding-right: 9.375rem;
     /*150/16 =9.375*/
+  }
+  .portfolio .portfolio-entry {
+    padding: 1.125em 9.375rem;
+    /*300/16 =9.375*/
+  }
+  .contact .content {
+    padding: 1.125rem 9.375rem;
+  }
+  .contact .content:nth-child(2n+1) {
+    margin-right: 9.375rem;
   }
 }
