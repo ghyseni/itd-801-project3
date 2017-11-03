@@ -631,6 +631,8 @@ article li li ol {
   }
   #header h1 {
     font-size: 2em;
+    line-height: 2.25em;
+    /* 36 / 16 = 2.25 */
     width: 9.625rem;
     /* 154 / 16 = 9.625*/
   }
