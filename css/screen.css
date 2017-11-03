@@ -670,7 +670,7 @@ article li li ol {
     width: 47.5%;
     padding: 1.125em 5%;
   }
-  .contact .content:nth-child(2n+1) {
+  .contact .contact-form {
     margin-right: 5%;
   }
   /* CSS Grid*/
@@ -694,7 +694,7 @@ article li li ol {
     padding: 1.125em 10%;
     grid-column: auto;
   }
-  .cssgrid .contact .content:nth-child(2n+1) {
+  .cssgrid .contact .contact-form {
     margin-right: 10%;
   }
 }
@@ -771,10 +771,13 @@ article li li ol {
     padding: 1.125em 9.375rem;
     /*300/16 =9.375*/
   }
-  .contact .content {
-    padding: 1.125rem 9.375rem;
+  .contact .contact-info, .cssgrid .contact .contact-info {
+    padding-left: 9.375rem;
   }
-  .contact .content:nth-child(2n+1) {
+  .contact .contact-form, .cssgrid .contact .contact-form {
+    margin-right: 9.375rem;
+  }
+  .contact .contact-form {
     margin-right: 9.375rem;
   }
 }
