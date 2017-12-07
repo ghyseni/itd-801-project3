@@ -10,6 +10,7 @@ $('html').addClass('js').removeClass('no-js');
 
 $(document).ready(function() {
   toggleMenuButton();
+  setMainHeight();
   /* Open/close navigation on navigation button click */
   $('#show-nav').on('click', function() {
     $('#show-nav').toggleClass('close');
@@ -29,6 +30,13 @@ function toggleMenuButton() {
   } else {
     $('#show-nav').remove();
   }
+}
+
+function setMainHeight() {
+  var headerHeight=$('#header').outerHeight();
+  var footerHeight=$('#footer').outerHeight();
+  var windowHeight=$(window).height();
+  $('#main').css({'min-height':windowHeight-headerHeight-footerHeight-1.125*16});
 }
 
 function responsiveFeature(feature) {
