@@ -848,6 +848,12 @@ article li li ol {
     padding: 1.125em 9.375rem;
     /*300/16 =9.375*/
   }
+  .contact .contact-info {
+    width: 50%;
+  }
+  .contact .contact-form {
+    width: calc(50% - 9.375em);
+  }
   .contact .contact-info, .cssgrid .contact .contact-info {
     padding-left: 9.375rem;
   }
@@ -855,6 +861,6 @@ article li li ol {
     margin-right: 9.375rem;
   }
   .contact .contact-form {
-    margin-right: 9.375rem;
+    margin-right: 0;
   }
 }
