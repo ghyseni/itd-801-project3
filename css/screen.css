@@ -385,10 +385,10 @@ article li li ol {
   /* 18 / 16 = 1.125 */
 }
 
-.content h2, .content h3, .content h4, .content p, .content ul, .content ol, .content li {
+/*.content h2, .content h3, .content h4, .content p, .content ul, .content ol, .content li {
   float: left;
   width: 100%;
-}
+}*/
 
 .content h4, .content p, .content ol, .content ul {
   padding-bottom: 1.125em;
