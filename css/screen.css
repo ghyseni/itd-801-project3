@@ -87,8 +87,8 @@ h1, h2 {
 h1 {
   font-size: 1.953em;
   /* 31.25 / 16 = 1.953 */
-  line-height: 1.056em;
-  /* 33 ÷ 31.25 = 1.056 */
+  line-height: 1.152em;
+  /* 36 ÷ 31.25 = 1.152 */
 }
 
 h2 {
@@ -208,7 +208,7 @@ article li li ol {
   width: 100%;
   background-color: #fff;
   padding: 1.125em 5%;
-  /* 18 / 16 : 0.5625 */
+  /* 18 / 16 : 1.125 */
 }
 
 #nav li {
@@ -219,6 +219,7 @@ article li li ol {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5625em 0;
+  /* 9 / 16 : 0.5625 */
   display: block;
 }
 
