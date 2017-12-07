@@ -515,7 +515,8 @@ article li li ol {
 .contact-form form {
   display: block;
   width: 100%;
-  margin-top: 1em;
+  margin-top: 1.125em;
+  /* 18 / 16 = 1.125 */
 }
 
 .contact-form input, .contact-form textarea, .contact-form label {
@@ -669,6 +670,7 @@ article li li ol {
   content: "expanded-nav";
   display: none;
 }
+
 .js #nav {
   opacity: 0;
   overflow: hidden;
@@ -682,6 +684,7 @@ article li li ol {
   padding: 1.125em 5%;
   /* 18 / 16 : 0.5625 */
 }
+
 .js #nav.opened {
   opacity: 1;
   z-index: 2;
@@ -790,12 +793,10 @@ article li li ol {
     /*9 / 16 = 0.5625*/
     text-align: center;
   }
-
   #nav li {
     display: inline;
     /*float: none;*/
   }
-
   #nav a {
     display: inline;
     float: none;
