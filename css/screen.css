@@ -406,6 +406,27 @@ article li li ol {
   position: relative;
 }
 
+.about .bg-image {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: url('../images/backlit-keyboard.JPG');
+  background-size: cover;
+}
+
+.about .bg-image h2 {
+  text-align: center;
+  position: absolute;
+  top: calc(5*18px);
+  right: 0;
+  width: 100%;
+  margin: auto;
+  color: #fff;
+}
+
 .about .photo figcaption {
   position: absolute;
   z-index: 1;
