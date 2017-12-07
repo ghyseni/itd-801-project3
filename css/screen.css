@@ -789,6 +789,21 @@ article li li ol {
   .js body:after {
     content: "";
   }
+  .js #nav {
+    position: relative;
+    top: auto;
+    left: auto;
+    opacity: 1;
+    float: left;
+    width: calc(100% - 9.625rem);
+    z-index: auto;
+    box-shadow: none;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0.5625em;
+    /*9 / 16 = 0.5625*/
+    text-align: center;
+  }
   #header {
     padding: 1.125em 5%;
   }
@@ -800,14 +815,10 @@ article li li ol {
     /* 154 / 16 = 9.625*/
   }
   #nav {
-    position: relative;
     top: auto;
     left: auto;
-    opacity: 1;
     float: left;
     width: calc(100% - 9.625rem);
-    z-index: auto;
-    box-shadow: none;
     padding-right: 0;
     padding-bottom: 0;
     padding-top: 0.5625em;
