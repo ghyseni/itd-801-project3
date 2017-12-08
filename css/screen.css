@@ -470,9 +470,10 @@ article li li ol {
 }
 
 .portfolio h3 {
-  padding-top:0.9em;
+  padding-top: 0.9em;
   /* 18 / 20 = 0.9 */
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .portfolio .portfolio-entry {
