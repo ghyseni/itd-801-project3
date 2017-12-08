@@ -402,10 +402,6 @@ article li li ol {
 
 /* About */
 
-/*.about .skills {
-  color:#fff;
-}*/
-
 .about .bg-image {
   position: absolute;
   z-index: -1;
@@ -416,23 +412,25 @@ article li li ol {
   background: url('../images/backlit-keyboard.JPG');
   background-size: cover;
 }
+
 .about .bg-image:after {
-  content:"";
-  position:absolute;
-  right:0;
-  top:0;
-  width:100%;
-  height:100%;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 .about .skills {
-  position:relative;
-  color:#fff;
+  position: relative;
+  color: #fff;
   margin: auto;
   text-transform: uppercase;
 }
-.about .skills li{
+
+.about .skills li {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 2.25em;
@@ -442,7 +440,7 @@ article li li ol {
 /* Resume */
 
 .resume .timeline {
-  background-color: #e1e6f2;
+  background-color: #f2f2f2;
 }
 
 .resume h3 {
@@ -472,6 +470,8 @@ article li li ol {
 }
 
 .portfolio h3 {
+  padding-top:0.9em;
+  /* 18 / 20 = 0.9 */
   text-transform: uppercase;
 }
 
@@ -480,7 +480,7 @@ article li li ol {
 }
 
 .portfolio .portfolio-entry:nth-child(2n+1) {
-  background-color: #e1e6f2;
+  background-color: #f2f2f2;
 }
 
 .portfolio .categories li, .portfolio .team li {
@@ -531,7 +531,7 @@ article li li ol {
 }
 
 .contact-form {
-  background: #e1e6f2;
+  background: #f2f2f2;
   display: block;
 }
 
@@ -703,7 +703,7 @@ article li li ol {
   left: 0;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 0.3125em 0.3125em #e1e6f2;
+  box-shadow: 0 0.3125em 0.3125em #f2f2f2;
   padding: 1.125em 5%;
   /* 18 / 16 : 0.5625 */
 }
@@ -732,13 +732,12 @@ article li li ol {
   .about .bg-image {
     width: 50%;
   }
-
   .about .skills {
     position: initial;
     right: 0;
     text-align: right;
   }
-  .about .skills li{
+  .about .skills li {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 2.25em;
@@ -766,7 +765,7 @@ article li li ol {
     background-color: #fff;
   }
   .portfolio .portfolio-entry:nth-child(3n-2) {
-    background-color: #e1e6f2;
+    background-color: #f2f2f2;
   }
   /*Contact*/
   .contact .content {
