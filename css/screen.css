@@ -92,7 +92,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.563em;
+  font-size: 1.5625em;
   /* 25 / 16 = 1.563 */
   line-height: 1.44em;
   /* 36 / 25 = 1.44 */
@@ -185,7 +185,7 @@ article li li ol {
   position: relative;
   background-color: #fff;
   box-shadow: 0 0.3125em 0.3125em #f2f2f2;
-  padding: 0.625em 5%;
+  padding: 1.125em 5%;
 }
 
 #header h1 {
@@ -197,7 +197,7 @@ article li li ol {
 
 #main {
   padding: 1.125em 0;
-  /*18 / 16 = 0.625*/
+  /*18 / 16 = 1.125*/
 }
 
 #nav {
@@ -229,12 +229,14 @@ article li li ol {
 }
 
 #nav .menu {
-  margin-bottom: 0.625em;
+  margin-bottom: 1.125em;
   text-align: center;
 }
 
 #nav .network {
   text-align: center;
+  height: 1.125rem;
+  /*36 / 16 = 2.25*/
 }
 
 #nav .network li {
@@ -253,8 +255,10 @@ article li li ol {
 }
 
 #nav .network .facebook, #nav .network .linkedin {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  line-height: 2.25rem;
+  /*36 / 16 = 2.25*/
 }
 
 #nav .network .facebook {
@@ -738,12 +742,6 @@ article li li ol {
     right: 0;
     text-align: right;
   }
-  .about .skills li {
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 2.25em;
-    /* 36 / 16 = 2.25 */
-  }
   /* Resume */
   .resume {
     float: left;
@@ -826,8 +824,8 @@ article li li ol {
   }
   #header h1 {
     font-size: 2em;
-    /*line-height: 2.25em;*/
-    /* 36 / 16 = 2.25 */
+    line-height: 1.6875em;
+    /* 54 / 32 = 1.6875 */
     width: 9.625rem;
     /* 154 / 16 = 9.625*/
   }
@@ -844,12 +842,12 @@ article li li ol {
   }
   #nav li {
     display: inline;
-    /*float: none;*/
   }
   #nav a {
     display: inline;
     float: none;
     padding: 0 1em;
+    font-weight: bold;
   }
   #nav .menu {
     float: left;
