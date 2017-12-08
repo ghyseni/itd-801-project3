@@ -9,7 +9,10 @@ $('html').removeClass();
 $('html').addClass('js').removeClass('no-js');
 
 $(document).ready(function() {
+  /* Add/Remove navigation button */
   toggleMenuButton();
+  /* Add min height to #main, so fotter will stay at the bottom when there's not
+  /*enough content to fill the window height*/
   setMainHeight();
   /* Open/close navigation on navigation button click */
   $('#show-nav').on('click', function() {
