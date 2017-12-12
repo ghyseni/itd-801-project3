@@ -758,6 +758,11 @@ article li li ol {
   .portfolio .portfolio-entry {
     width: 50%;
     padding: 1.125em 5%;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
   }
   .portfolio .portfolio-entry:nth-child(2n+1) {
     clear: left;
